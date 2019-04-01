@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add interface renders correctly 1`] = `
+<div
+  className="dashboard"
+>
+  <h2>
+    Add note
+  </h2>
+  <div
+    className="notes-contents"
+  >
+    <a
+      className="delete-note"
+      href="#"
+      onClick={[Function]}
+    >
+      Cancel
+    </a>
+    <textarea
+      className="note-text md-ish"
+      onChange={[Function]}
+      placeholder="Note's text"
+      value=""
+    />
+    <button
+      className="save-note md-ish hover-cursor"
+      onClick={[Function]}
+    >
+      Add
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Edit interface renders correctly 1`] = `
+<div
+  className="dashboard"
+>
+  <h2>
+    Edit your note
+  </h2>
+  <div
+    className="notes-contents"
+  >
+    <a
+      className="delete-note"
+      href="#"
+      onClick={[Function]}
+    >
+      Delete
+    </a>
+    <textarea
+      className="note-text md-ish"
+      onChange={[Function]}
+      placeholder="Note's text"
+      value="Some test text here"
+    />
+    <button
+      className="save-note md-ish hover-cursor"
+      onClick={[Function]}
+    >
+      Save
+    </button>
+  </div>
+</div>
+`;
